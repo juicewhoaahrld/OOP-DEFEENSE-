@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password_hash": "199cd87a85ebe38fd90da24fea84fc2d$3770010426c88e28ad42c11a312505fb9f789bf10b893ef8a35580ed9193178b",
+      "full_name": "WASHAPP Administrator",
+      "contact": "N/A",
+      "role": "admin",
+      "created_at": "2026-10-22T12:02:52+08:00",
+      "status": "Active",
+      "email": ""
+    },
+    {
+      "username": "demo",
+      "password_hash": "879034c066e7b4acf26b0520b5d46621$d9ff44edc361d8cded940f73270e603b7d372de657d5ddfad6a450c5c6727625",
+      "full_name": "Demo Customer",
+      "contact": "09000000000",
+      "role": "customer",
+      "created_at": "2026-10-22T12:02:52+08:00",
+      "status": "Active",
+      "email": ""
+    },
+    {
+      "username": "geo",
+      "password_hash": "e4c2048b5eebdc2ea10ca7fef24f5f65$e634a806a00ac5e00ee13fef611c50836943f5af147cfc0fe933b8a12301c4bf",
+      "full_name": "geoffry semblante",
+      "contact": "0936582911",
+      "role": "customer",
+      "created_at": "2026-10-22T12:04:07+08:00",
+      "status": "Active",
+      "email": ""
+    },
+    {
+      "username": "joshua",
+      "password_hash": "0696b219c0ea5345431eed4163596590$ceeb073331d76a81bd58695ee5ea212c2160066603496b83cb788937bb8d68dd",
+      "full_name": "JOSHUA SARTING",
+      "contact": "09914706875",
+      "role": "customer",
+      "created_at": "2026-10-22T13:09:27+08:00",
+      "refund_method": "GCash",
+      "refund_account_name": "Joshua Sarting",
+      "refund_account_number": "09914706875",
+      "refund_bank_name": "",
+      "status": "Active",
+      "email": ""
+    },
+    {
+      "username": "hampri",
+      "password_hash": "26261e8556b73094161869ce50cc5446$115c614d7c95251a802ffd682871d7cae83ca3b16dcf4cce4c3dd3a0cca71544",
+      "full_name": "humphrey calimpon",
+      "contact": "09654268974",
+      "role": "customer",
+      "created_at": "2026-10-22T16:14:20+08:00",
+      "status": "Active",
+      "email": ""
+    },
+    {
+      "username": "hamprii",
+      "password_hash": "53659a56491d74ccd5921080b4fe0582$eb8231d03e16214b0f9371041ccf19b146dacc91f65e84acb9ef9f964da204be",
+      "full_name": "humohrety",
+      "contact": "123456",
+      "role": "customer",
+      "created_at": "2026-10-23T10:17:34+08:00",
+      "status": "Active",
+      "email": ""
+    },
+    {
+      "username": "Clint",
+      "password_hash": "38aed926bddaf8967aabae3f8ded8779$d85316e8a7cab78171dff25ed361907613be174cdf47f54e242e2dd35ef31169",
+      "full_name": "Clint Mahinay",
+      "contact": "09914706875",
+      "role": "customer",
+      "created_at": "2026-10-23T13:48:13+08:00",
+      "refund_method": "GCash",
+      "refund_account_name": "Clint M.",
+      "refund_account_number": "09914706875",
+      "refund_bank_name": "",
+      "status": "Active",
+      "email": ""
+    }
+  ],
+  "reservations": [],
+  "payments": [],
+  "refunds": [],
+  "notifications": [],
+  "settings": {
+    "system_name": "WASHAPP",
+    "system_subtitle": "Carwash Reservation System",
+    "tagline": "Technology That Keeps Your Ride Shining.",
+    "business_name": "WashApp Carwash",
+    "contact_info": "09119911911"
+  },
+  "services": [
+    {
+      "service_id": "SRV-001",
+      "name": "Basic Wash",
+      "description": "Exterior wash and basic cleaning.",
+      "prices": {
+        "Sedan": 130.0,
+        "SUV": 180.0,
+        "Van": 200.0,
+        "Pick-up": 200.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-002",
+      "name": "Wash + Vacuum",
+      "description": "Exterior wash with interior vacuuming.",
+      "prices": {
+        "Sedan": 160.0,
+        "SUV": 200.0,
+        "Van": 230.0,
+        "Pick-up": 230.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-003",
+      "name": "Wash + Wax",
+      "description": "Exterior wash and wax finish.",
+      "prices": {
+        "Sedan": 250.0,
+        "SUV": 300.0,
+        "Van": 350.0,
+        "Pick-up": 350.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-004",
+      "name": "Premium Wash",
+      "description": "Premium exterior and interior cleaning.",
+      "prices": {
+        "Sedan": 350.0,
+        "SUV": 400.0,
+        "Van": 450.0,
+        "Pick-up": 450.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-005",
+      "name": "Engine Wash",
+      "description": "Engine bay cleaning service.",
+      "prices": {
+        "Sedan": 450.0,
+        "SUV": 500.0,
+        "Van": 550.0,
+        "Pick-up": 550.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-006",
+      "name": "Basic Motorcycle Wash",
+      "description": "Basic motorcycle wash.",
+      "prices": {
+        "Motorcycle": 80.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-007",
+      "name": "Wash + Tire Black",
+      "description": "Motorcycle wash with tire-black finish.",
+      "prices": {
+        "Motorcycle": 100.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-008",
+      "name": "Premium Motorcycle Wash",
+      "description": "Premium motorcycle wash.",
+      "prices": {
+        "Motorcycle": 150.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-009",
+      "name": "Motorcycle Wash + Wax",
+      "description": "Motorcycle wash with wax finish.",
+      "prices": {
+        "Motorcycle": 250.0
+      },
+      "available": true
+    },
+    {
+      "service_id": "SRV-010",
+      "name": "Motorcycle Detailing",
+      "description": "Detailed motorcycle cleaning service.",
+      "prices": {
+        "Motorcycle": 500.0
+      },
+      "available": true
+    }
+  ]
+}
